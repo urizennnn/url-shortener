@@ -10,6 +10,7 @@ require('dotenv').config();
 // Middleware
 app.use(cors());
 app.use(morgan('dev'));
+app.use(express.json()); // Middleware for parsing JSON
 
 // Routes
 app.use('/api/url', routes);
