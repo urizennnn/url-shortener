@@ -1,6 +1,5 @@
 'use strict'
 const URL = require('../model/urlModel')
-const { v4: uuidv4 } = require('uuid')
 const short = require('shortid')
 
 const shortenUrl = async (req, res) => {
